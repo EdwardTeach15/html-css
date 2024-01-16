@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+
+    RECOMENDAÇÃO OFICIAL:
+    Use px ou em (em é melhor)
+    1em = 16px
+    */
+
+    font-size: 1em;
+    font-weight: normal;
+    /*lighter normal bold bolder*/
+    /*100 - 900*/
+
+    font-style: normal;
+}
+
+h1{
+    /*shorthand font
+    font-style -> font-weight -> font-size -> font-family*/
+    font: italic bolder 3em 'Times New Roman', Times, serif;
+}
+
+h2{
+    font: bold 2em 'Times New Roman', Times, serif;
+}
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dignissimos consequuntur veritatis, ex eos reprehenderit! Aut mollitia sit iure cupiditate deleniti voluptate in sint maiores fugiat, quis inventore consequatur nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam aperiam, natus consequuntur provident aspernatur neque excepturi deserunt doloremque? Rerum beatae sunt molestias dolorem, nobis ex adipisci iste distinctio magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis nihil hic delectus culpa officiis asperiores dolores rerum autem dolore nam ipsam tenetur impedit, beatae error, sed consequuntur doloremque voluptates.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magnam asperiores illo porro quaerat voluptate officiis cum totam? Molestias dolorem sit veritatis architecto voluptates dolore quibusdam aliquam, pariatur distinctio nihil? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ipsum tempore, neque natus dignissimos culpa officia obcaecati omnis repudiandae rem optio, laudantium adipisci iste iusto enim commodi aliquam quisquam amet.</p>
+</body>
+</html>
